@@ -1,0 +1,321 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Farinha de Trigo",
+        "descricao": "Farinha de trigo branca para uso em bolos, pães e biscoitos.",
+        "marca": "Dona Benta",
+        "categoria": "Farinha",
+        "preco": 4.50
+      },
+      {
+        "id": 2,
+        "nome": "Açúcar Refinado",
+        "descricao": "Açúcar refinado fino, ideal para receitas de confeitaria.",
+        "marca": "União",
+        "categoria": "Açúcar",
+        "preco": 3.00
+      },
+      {
+        "id": 3,
+        "nome": "Manteiga sem Sal",
+        "descricao": "Manteiga pura sem sal para uso em massas e recheios.",
+        "marca": "Aviação",
+        "categoria": "Laticínios",
+        "preco": 9.00
+      },
+      {
+        "id": 4,
+        "nome": "Leite Condensado",
+        "descricao": "Leite condensado para preparo de doces e sobremesas.",
+        "marca": "Moça",
+        "categoria": "Laticínios",
+        "preco": 6.50
+      },
+      {
+        "id": 5,
+        "nome": "Chocolate em Pó",
+        "descricao": "Chocolate em pó 50% cacau para bolos e recheios.",
+        "marca": "Nestlé",
+        "categoria": "Chocolate",
+        "preco": 8.00
+      },
+      {
+        "id": 6,
+        "nome": "Fermento Biológico Seco",
+        "descricao": "Fermento biológico seco instantâneo para pães e bolos.",
+        "marca": "Fleischmann",
+        "categoria": "Fermento",
+        "preco": 2.50
+      },
+      {
+        "id": 7,
+        "nome": "Essência de Baunilha",
+        "descricao": "Essência de baunilha concentrada para aromatizar doces.",
+        "marca": "Dr. Oetker",
+        "categoria": "Aromatizantes",
+        "preco": 5.00
+      },
+      {
+        "id": 8,
+        "nome": "Granulado de Chocolate",
+        "descricao": "Granulado de chocolate para decoração de bolos e doces.",
+        "marca": "Dori",
+        "categoria": "Confeitos",
+        "preco": 3.00
+      },
+      {
+        "id": 9,
+        "nome": "Fermento Químico em Pó",
+        "descricao": "Fermento químico em pó para bolos e tortas.",
+        "marca": "Royal",
+        "categoria": "Fermento",
+        "preco": 3.50
+      },
+      {
+        "id": 10,
+        "nome": "Coco Ralado",
+        "descricao": "Coco ralado desidratado para uso em bolos e doces.",
+        "marca": "Sococo",
+        "categoria": "Frutas Secas",
+        "preco": 4.00
+      },
+      {
+        "id": 11,
+        "nome": "Gelatina Incolor",
+        "descricao": "Gelatina incolor sem sabor para uso em sobremesas.",
+        "marca": "Royal",
+        "categoria": "Gelatina",
+        "preco": 2.00
+      },
+      {
+        "id": 12,
+        "nome": "Açúcar de Confeiteiro",
+        "descricao": "Açúcar de confeiteiro fino para coberturas e decorações.",
+        "marca": "Glaçúcar",
+        "categoria": "Açúcar",
+        "preco": 4.00
+      },
+      {
+        "id": 13,
+        "nome": "Creme de Leite",
+        "descricao": "Creme de leite pasteurizado para sobremesas e recheios.",
+        "marca": "Nestlé",
+        "categoria": "Laticínios",
+        "preco": 5.00
+      },
+      {
+        "id": 14,
+        "nome": "Amido de Milho",
+        "descricao": "Amido de milho para engrossar cremes e caldas.",
+        "marca": "Maizena",
+        "categoria": "Amido",
+        "preco": 2.50
+      },
+      {
+        "id": 15,
+        "nome": "Chocolate ao Leite",
+        "descricao": "Chocolate ao leite em barra para derreter e utilizar em receitas.",
+        "marca": "Garoto",
+        "categoria": "Chocolate",
+        "preco": 7.00
+      },
+      {
+        "id": 16,
+        "nome": "Leite em Pó",
+        "descricao": "Leite em pó integral para uso em doces e recheios.",
+        "marca": "Ninho",
+        "categoria": "Laticínios",
+        "preco": 8.00
+      },
+      {
+        "id": 17,
+        "nome": "Corante Alimentício",
+        "descricao": "Corante alimentício líquido para colorir massas e coberturas.",
+        "marca": "Mix",
+        "categoria": "Aromatizantes",
+        "preco": 3.50
+      },
+      {
+        "id": 18,
+        "nome": "Nozes",
+        "descricao": "Nozes inteiras para uso em bolos e sobremesas.",
+        "marca": "Jazam",
+        "categoria": "Frutas Secas",
+        "preco": 15.00
+      },
+      {
+        "id": 19,
+        "nome": "Glucose de Milho",
+        "descricao": "Glucose de milho para uso em receitas de confeitaria.",
+        "marca": "Karo",
+        "categoria": "Açúcar",
+        "preco": 6.00
+      },
+      {
+        "id": 20,
+        "nome": "Creme de Leite Fresco",
+        "descricao": "Creme de leite fresco para chantilly e sobremesas.",
+        "marca": "Fazenda Bela Vista",
+        "categoria": "Laticínios",
+        "preco": 12.00
+      }
+    ],
+    "receitas": [
+      {
+        "id": 1,
+        "nome": "Bolo de Chocolate",
+        "descricao": "Um bolo de chocolate delicioso e fácil de fazer.",
+        "tempo_preparo": "1 hora",
+        "rendimento": "10 porções",
+        "produtos": [
+          {
+            "id": 1,
+            "nome": "farinha de trigo",
+            "quantidade": "2 xícaras"
+          },
+          {
+            "id": 2,
+            "nome": "açúcar refinado",
+            "quantidade": "1 e 1/2 xícaras"
+          },
+          {
+            "id": 3,
+            "nome": "manteiga sem sal",
+            "quantidade": "200g"
+          },
+          {
+            "id": 5,
+            "nome": "chocolate em pó",
+            "quantidade": "1 xícara"
+          },
+          {
+            "id": 9,
+            "nome": "fermento químico em pó",
+            "quantidade": "1 colher de sopa"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nome": "Brigadeiro",
+        "descricao": "Tradicional doce brasileiro feito com leite condensado e chocolate.",
+        "tempo_preparo": "30 minutos",
+        "rendimento": "20 unidades",
+        "produtos": [
+          {
+            "id": 4,
+            "nome": "leite condensado",
+            "quantidade": "1 lata"
+          },
+          {
+            "id": 5,
+            "nome": "chocolate em pó",
+            "quantidade": "4 colheres de sopa"
+          },
+          {
+            "id": 3,
+            "nome": "manteiga sem sal",
+            "quantidade": "1 colher de sopa"
+          },
+          {
+            "id": 8,
+            "nome": "granulado de chocolate",
+            "quantidade": "para cobrir"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nome": "Pavê de Coco",
+        "descricao": "Delicioso pavê feito com camadas de creme e coco.",
+        "tempo_preparo": "2 horas",
+        "rendimento": "12 porções",
+        "produtos": [
+          {
+            "id": 4,
+            "nome": "leite condensado",
+            "quantidade": "2 latas"
+          },
+          {
+            "id": 10,
+            "nome": "coco ralado",
+            "quantidade": "100g"
+          },
+          {
+            "id": 13,
+            "nome": "creme de leite",
+            "quantidade": "2 caixas"
+          },
+          {
+            "id": 14,
+            "nome": "amido de milho",
+            "quantidade": "2 colheres de sopa"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nome": "Biscoito Amanteigado",
+        "descricao": "Biscoito crocante e amanteigado perfeito para o chá da tarde.",
+        "tempo_preparo": "1 hora e 30 minutos",
+        "rendimento": "50 unidades",
+        "produtos": [
+          {
+            "id": 1,
+            "nome": "farinha de trigo",
+            "quantidade": "3 xícaras"
+          },
+          {
+            "id": 2,
+            "nome": "açúcar refinado",
+            "quantidade": "1 xícara"
+          },
+          {
+            "id": 3,
+            "nome": "manteiga sem sal",
+            "quantidade": "250g"
+          },
+          {
+            "id": 7,
+            "nome": "essência de baunilha",
+            "quantidade": "1 colher de chá"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nome": "Torta de Nozes",
+        "descricao": "Torta deliciosa feita com nozes e um toque de canela.",
+        "tempo_preparo": "3 horas",
+        "rendimento": "12 porções",
+        "produtos": [
+          {
+            "id": 1,
+            "nome": "farinha de trigo",
+            "quantidade": "2 xícaras"
+          },
+          {
+            "id": 2,
+            "nome": "açúcar refinado",
+            "quantidade": "1 e 1/2 xícaras"
+          },
+          {
+            "id": 3,
+            "nome": "manteiga sem sal",
+            "quantidade": "200g"
+          },
+          {
+            "id": 18,
+            "nome": "nozes",
+            "quantidade": "200g"
+          },
+          {
+            "id": 6,
+            "nome": "fermento biológico seco",
+            "quantidade": "1 colher de sopa"
+          }
+        ]
+      }
+    ]
+  }
